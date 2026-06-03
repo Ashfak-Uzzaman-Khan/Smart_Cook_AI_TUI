@@ -2,13 +2,13 @@
 
 # 🍳 Smart Cook AI — RFID Tangible User Interface
 
-[![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![Python](https://img.shields.io/badge/Python-3.12+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Flask](https://img.shields.io/badge/Flask-2.x-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com)
 [![Google Gemini](https://img.shields.io/badge/Google%20Gemini-AI-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev)
 [![Arduino](https://img.shields.io/badge/Arduino-ESP32-00979D?style=for-the-badge&logo=arduino&logoColor=white)](https://www.arduino.cc)
 [![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://microsoft.com/windows)
 
-**A hands-free, AI-powered cooking assistant that bridges physical IoT hardware with Generative AI — scan an RFID card and let the AI guide you through a full recipe, step by step, with voice instructions and live timers.**
+**A hands-free, AI-powered cooking assistant that bridges physical IoT hardware with Generative AI : scan an RFID card and let the AI guide you through a full recipe, step by step, with voice instructions and live timers.**
 
 </div>
 
@@ -125,13 +125,13 @@ The Smart RFID Cooking Assistant allows users to:
 ```
 Smart_Cook_AI_TUI/
 │
-├── cmd_main.py                    # Main application — Flask API + Tkinter UI + TTS
+├── cmd_main.py                    # Main application : Flask API + Tkinter UI + TTS
 │
 ├── Arduino_Esp32_main/
-│   └── Arduino_Esp32_main.ino    # ESP32 firmware — RFID scan + WiFi HTTP client
+│   └── Arduino_Esp32_main.ino    # ESP32 firmware : RFID scan + WiFi HTTP client
 │
 └── RFID_Card_Number/
-    └── RFID_Card_Number.ino      # Utility sketch to read and print RFID card UIDs
+    └── RFID_Card_Number.ino      # Utility sketch to read RFID card 
 ```
 
 ---
