@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🍳 Smart Cook AI — RFID Tangible User Interface
+# 🍳 Smart Cook AI : RFID Tangible User Interface
 
 [![Python](https://img.shields.io/badge/Python-3.12+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Flask](https://img.shields.io/badge/Flask-2.x-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com)
@@ -25,10 +25,7 @@ An interactive Human-Computer Interaction (HCI) project that combines:
 - Tkinter desktop UI
 - Designed for RFID-triggered interaction
 
-This system generates dynamic, step-by-step cooking recipes with automatic timers and voice guidance — creating a hands-free smart cooking experience.
-
-This project was developed as part of an HCI course project focusing on tangible interaction using RFID-based input.
-
+This system generates dynamic, step-by-step cooking recipes with automatic timers and voice guidance, creating a hands-free smart cooking experience.
 ---
 
 ## 📋 Project Overview
@@ -36,7 +33,7 @@ This project was developed as part of an HCI course project focusing on tangible
 The Smart RFID Cooking Assistant allows users to:
 
 - **Scan a Recipe Card** → AI generates a new recipe
-- **Scan a Next Step Card** → Moves to next cooking step (or scan other recipe cards — recipe cards can be modified according to user interest like fish, mutton recipe card)
+- **Scan a Next Step Card** → Moves to next cooking step (or scan other recipe cards), recipe cards can be modified according to user interest like fish, mutton recipe card)
 - **Automatic timer** per step
 - **Voice instruction** playback
 - **Live UI** with countdown + progress bar
@@ -53,7 +50,7 @@ The Smart RFID Cooking Assistant allows users to:
                            │
                            ▼
 ┌──────────────────────────────────────────┐
-│         ESP32 + MFRC522 RFID Module      │
+│         ESP32 RFID Module      │
 │  • Reads card UID                        │
 │  • Maps UID → Recipe Type                │
 │  • Beeps buzzer for feedback             │
@@ -73,7 +70,7 @@ The Smart RFID Cooking Assistant allows users to:
            │                    │
            ▼                    ▼
 ┌──────────────────┐  ┌─────────────────────┐
-│  Tkinter Desktop │  │  gTTS + pygame TTS  │
+│  Tkinter Desktop │  │        TTS          │
 │  UI Dashboard    │  │  (Voice Playback)   │
 │  (Live Updates)  │  │                     │
 └──────────────────┘  └─────────────────────┘
@@ -101,7 +98,7 @@ The Smart RFID Cooking Assistant allows users to:
 |-----------|---------|
 | ESP32 Microcontroller | Main IoT controller |
 | Arduino IDE | For ESP32 programming |
-| RFID Module | MFRC522 |
+| RFID Module | 
 | RFID Cards | Physical tangible input |
 | WiFi Communication | ESP32 ↔ PC over local network |
 | Buzzer | Scan feedback |
@@ -166,11 +163,8 @@ Smart_Cook_AI_TUI/
   <img width="480" src="https://github.com/user-attachments/assets/7f1adb78-f7bb-49b4-bf8f-d3ed8cfb45e6" alt="Hardware Setup Photo 2" />
 </div>
 
-<div align="center">
-  <img width="600" src="https://github.com/user-attachments/assets/9490616e-35b7-40e4-b730-077c161df60e" alt="Full Hardware Setup" />
-</div>
-
 ---
+
 
 ### Step 1 — Connect Hardware & Get RFID Card UIDs
 
